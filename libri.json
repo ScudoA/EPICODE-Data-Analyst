@@ -1,0 +1,51 @@
+{
+	
+	"libri":[
+	{
+
+		"Titolo":"Black Paradox",
+		"Autore":
+		
+		[
+			{
+
+					"Nome":"Junji Ito",
+					"Indirizzo":"blablamanga@autore.com"
+			}
+
+		],
+
+		"Capitoli":"6",
+		"Pagine":"201",
+		"ISBN":"978-1974728633",
+		"Data di pubblicazione":"24 novembre 2022",
+		"Lingua":"Inglese"
+
+	},
+
+	{
+
+		"Titolo":"IT",
+		"Autore":
+		
+		[
+			{
+
+					"Nome":"Stephen King",
+					"Indirizzo":"blablahorror@autore.com"
+			}
+
+		],
+
+		"Capitoli":"2",
+		"Pagine":"1216",
+		"ISBN":"978-8868365622",
+		"Data di pubblicazione":"23 luglio 2019",
+		"Lingua":"Italiano"
+
+
+	}
+
+]
+
+}

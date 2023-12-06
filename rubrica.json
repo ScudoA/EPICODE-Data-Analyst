@@ -1,0 +1,66 @@
+{
+
+
+	"rubrica":[
+    {
+        "Title": "Sig.",
+        "First Name": "Andrea",
+        "Middle Name": null,
+        "Last Name": "Scudo",
+        "Mobile Phone": "123456789",
+        "E-mail Address": "andrea.scudo@studente.com",
+        "Date of birth": "11-11-1111",
+        "Birthplace": "Messina",
+        "Last Call": "06-12-23 01:01"
+    },
+
+    {
+        "Title": "Sig.",
+        "First Name": "Thomas",
+        "Middle Name": "Massimo",
+        "Last Name": "Gaydou",
+        "Mobile Phone": "123456789",
+        "E-mail Address": "massimo.gaydou@studente.com",
+        "Date of birth": "11-11-1111",
+        "Birthplace": "Milano",
+        "Last Call": "06-12-23 13:56"
+    },
+
+    {
+        "Title": "Sig.ra",
+        "First Name": "Chiara",
+        "Middle Name": null,
+        "Last Name": "Caruso",
+        "Mobile Phone": "123456789",
+        "E-mail Address": "chiara.caruso@studente.com",
+        "Date of birth": "11-11-1111",
+        "Birthplace": "Roma",
+        "Last Call": "06-12-23 12:47"
+    },
+
+    {
+        "Title": "Sig.",
+        "First Name": "Alessandro",
+        "Middle Name": "Raffaele",
+        "Last Name": "Fruncillo",
+        "Mobile Phone": "123456789",
+        "E-mail Address": "alessandro.fruncillo@studente.com",
+        "Date of birth": "11-11-1111",
+        "Birthplace": "Torino",
+        "Last Call": "06-12-23 14:51"
+    },
+
+    {
+        "Title": "Sig.",
+        "First Name": "Andrea",
+        "Middle Name": null,
+        "Last Name": "Selis",
+        "Mobile Phone": "123456789",
+        "E-mail Address": "andrea.selis@studente.com",
+        "Date of birth": "11-11-1111",
+        "Birthplace": "Cagliari",
+        "Last Call": "06-12-23 19:27"
+    }
+]
+
+}
