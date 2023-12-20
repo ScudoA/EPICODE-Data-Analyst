@@ -1,0 +1,64 @@
+-- tabella AEROPORTO
+CREATE TABLE AEROPORTO (
+  id INTEGER PRIMARY KEY NOT NULL,
+  Citta TEXT NOT NULL,
+  Nazione TEXT NOT NULL,
+  NumPiste TEXT NOT NULL
+);
+
+INSERT INTO AEROPORTO VALUES (1, 'Napoli','Italia','NOT AVAILABLE');
+INSERT INTO AEROPORTO VALUES (2, 'Roma','Italia','27');
+INSERT INTO AEROPORTO VALUES (3, 'Pisa', 'Italia', '14');
+INSERT INTO AEROPORTO VALUES (4, 'Barcelona', 'Spagna', '22');
+INSERT INTO AEROPORTO VALUES (5, 'Paris', 'Francia', '18');
+INSERT INTO AEROPORTO VALUES (6, 'Munich', 'Germania', '25');
+INSERT INTO AEROPORTO VALUES (7, 'Rome', 'Italia', '16');
+INSERT INTO AEROPORTO VALUES (8, 'Torino', 'Italia', '12');
+INSERT INTO AEROPORTO VALUES (9, 'Amsterdam', 'Olanda', '21');
+INSERT INTO AEROPORTO VALUES (10, 'Bologna', 'Italia', '17');
+
+SELECT * FROM AEROPORTO;
+
+-- tabella VOLO
+CREATE TABLE VOLO (
+  IdVolo VARCHAR(20) PRIMARY KEY NOT NULL,
+  GiornoSett TEXT NOT NULL,
+  CittaPart TEXT NOT NULL,
+  OraPart TIME NOT NULL,
+  CittaArr TEXT NOT NULL,
+  OraArr TIME NOT NULL,
+  TipoAereo TEXT NOT NULL
+);
+
+INSERT INTO VOLO VALUES ('ZX458','Mercoledi','Torino','14:02','Amsterdam','16:45','Boeing 747-400');
+INSERT INTO VOLO VALUES ('AZ274','Lunedì','Torino','10:30','Parigi','13:15','Airbus A320');
+INSERT INTO VOLO VALUES ('XY123','Giovedì','Barcelona','09:45','Amsterdam','12:30','Boeing-737');
+INSERT INTO VOLO VALUES ('LM456','Venerdì','Munich','15:20','Torino','17:00','Airbus A380');
+INSERT INTO VOLO VALUES ('AB789','Sabato','Pisa','11:00','Napoli','13:30','Boeing 747-400');
+INSERT INTO VOLO VALUES ('CD987','Domenica','Amsterdam','14:45','Bologna','17:30','Airbus A330');
+
+SELECT * FROM VOLO;
+
+-- tabella AEREO
+CREATE TABLE AEREO (
+  IdAereo VARCHAR(10) PRIMARY KEY NOT NULL,
+  TipoAereo TEXT NOT NULL,
+  NumPasseggeri VARCHAR(400) NOT NULL,
+  QtaMerci VARCHAR(10) NOT NULL
+);
+
+INSERT INTO AEREO VALUES ('453889','Airbus A330','397','70KG');
+INSERT INTO AEREO VALUES ('456789','Airbus A380','245','56KG');
+INSERT INTO AEREO VALUES ('567431','Boeing-737','202','127KG');
+INSERT INTO AEREO VALUES ('331995', 'Boeing 747-400','286','200KG');
+
+SELECT * FROM AEREO;
+
+-- esercizio 1
+SELECT * FROM AEROPORTO WHERE NumPiste='NOT AVAILABLE';
+-- esercizio 2
+SELECT TipoAereo FROM VOLO WHERE CittaPart='Torino';
+-- esercizio 3
+SELECT CittaPart FROM VOLO WHERE CittaArr='Bologna';
+-- esercizio 4
+SELECT CittaPart,CittaArr FROM VOLO WHERE IdVolo='AZ274';
