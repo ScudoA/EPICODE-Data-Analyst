@@ -97,4 +97,4 @@ num1=input("Inserisci il primo numero da combinare: ")
 num2=input("Inserisci il secondo numero da combinare: ")
 ris=num1+num2
 print("La combinazione dei due numeri e': ")
-print(somma)
+print(ris)
