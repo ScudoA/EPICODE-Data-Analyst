@@ -1,0 +1,100 @@
+1.
+
+Entrare al supermercato.
+Cercare i reparti dove posso trovare tutti i prodotti che devo acquistare.
+Per ogni prodotto, analizzare il rapporto qualità-prezzo rispetto ai prodotti simili della stessa categoria. (Nel caso in cui non ci sia una precisa preferenza)
+Dopo aver trovato tutti i prodotti: andare in cassa a pagare.
+
+2.
+
+Analizzare gli strumenti necessari a rendere più facile lo studio.
+Utilizzre gli strumenti ottenuti (libri, documenti, video-lezioni, corsi) per approfondire le nozioni del concetto.
+Ripetere nel caso in cui il passaggio precedente non mi abbia fatto ottenere i risultati sperati.
+
+3.
+
+Decidere dove acquistarlo.
+Analizzare i prodotti presenti.
+Dopo aver scelto: pagare con i soldi a mia disposizione.
+
+PY.
+
+1. 
+
+studenti=25
+
+2.
+
+studenti=25
+print(studenti)
+
+3.
+
+studenti=25
+studenti_nuovi=3
+
+4. 
+
+studenti=25
+studenti_nuovi=3
+totale_studenti=studenti + studenti_nuovi
+print(totale_studenti)
+
+5.
+
+stringa = 'Epicode'
+print(stringa)
+
+6.
+
+lista = [0,1,2,3,4,5]
+print(lista)
+
+7.
+
+nome_scuola = "Epicode"
+print(nome_scuola[0])
+
+8.
+
+nome_scuola = "Epicode"
+print(nome_scuola[0,1,3])
+
+9.
+
+x=10
+x=x+2
+x*=3
+print(x)
+
+10.
+
+stringa=input("Inserisci una stringa: ")
+print(stringa[0:3] + '...' + stringa[-3:])
+
+11.
+
+stringa1='Windows'
+stringa2='Excel'
+stringa3='PowerPoint'
+stringa4='Word'
+
+lunghezza1=len(stringa1)
+print(lunghezza1)
+
+lunghezza2=len(stringa2)
+print(lunghezza2)
+
+lunghezza3=len(stringa3)
+print(lunghezza3)
+
+lunghezza4=len(stringa4)
+print(lunghezza4)
+
+12.
+
+num1=input("Inserisci il primo numero da combinare: ")
+num2=input("Inserisci il secondo numero da combinare: ")
+ris=num1+num2
+print("La combinazione dei due numeri e': ")
+print(somma)
