@@ -1,0 +1,80 @@
+1.
+
+auto_diz={
+'Ada':'Punto',
+'Ben':'Multipla',
+'Charlie':'Golf',
+'Debbie':'107'
+}	
+
+print("Dizionario auto:")
+print(auto_diz)
+
+auto_debbie=auto_diz.get('Debbie')
+print("Auto di Debbie:")
+print(auto_debbie)
+
+2.
+
+auto_diz={
+'Ada':'Punto',
+'Ben':'Multipla',
+'Charlie':'Golf',
+'Debbie':'107'
+}
+
+print("Auto:")
+for auto in auto_diz.values():
+    if auto != 'Multipla':
+        print(auto)
+
+3.
+
+dizionario_auto={
+    "Ada": "Punto", 
+    "Ben": "Multipla", 
+    "Charlie": "Golf",
+    "Debbie": "107",
+    "Emily": "A1"} 
+    
+nuovi_proprietari={
+    "Ben": "Polo",
+    "Fred": "Octavia",
+    "Grace": "Yaris",
+    "Hugh": "Clio"
+}
+
+dizionario_auto.update(nuovi_proprietari)
+
+print(dizionario_auto)
+
+4.
+
+lista=["1","67","786","5","12"]
+massimo=max(lista)
+minimo=min(lista)
+print("Il massimo: ", massimo)
+print("Il minimo: ", minimo)
+
+5.
+
+def numeri_piu_grandi(lista):
+    if len(lista)<3:
+        print("La lista è troppo corta!")
+        return
+
+    tre_numeri = sorted(lista, reverse=True)[:3]
+    print("I tre numeri più grandi sono:", tre_numeri)
+
+
+lista_di_numeri = [12, 8, 2, 32, 1, 5, 11, 5]
+numeri_piu_grandi(lista_di_numeri)
+
+6.
+
+def asterischi(lista):
+    for numero in lista:
+        print("*" * numero)
+numeri=[6,2,5,7,8,12]
+asterischi(numeri)
+
