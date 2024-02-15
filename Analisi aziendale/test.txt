@@ -1,0 +1,15 @@
+ESERCIZIO
+Scenario:
+Immaginiamo di lavorare per un'azienda globale che vende prodotti in diverse categorie. L'obiettivo è analizzare le vendite in base alla categoria di prodotto, alla localizzazione geografica, al volume di vendita e alla distribuzione del fatturato.
+1: Analisi delle Categorie di Prodotto
+Istogramma: Crea un istogramma per visualizzare la distribuzione delle vendite o del fatturato per ciascuna categoria di prodotto. 
+NO | 2: Visualizzazione della Struttura Aziendale
+Mappa ad Albero: Usa una mappa ad albero per mostrare la struttura delle vendite o del fatturato divisa per categoria di prodotto e poi ulteriormente suddivisa per paese. 
+3: Analisi Percentuale
+Grafico a Torta e Grafico ad Anello: Crea un grafico a torta per mostrare la percentuale di contributo al fatturato di ciascuna categoria di prodotto. Accanto, usa un grafico ad anello per confrontare la percentuale di quantità venduta.
+4: Analisi Dettagliata
+Matrice: Crea una matrice per mostrare il fatturato, la quantità venduta, e il costo del prodotto, suddivisi per paese e categoria di prodotto. 
+5: Analisi Geografica
+Mappa Geografica e Mappa Colorata: Usa una mappa geografica per mostrare la distribuzione geografica delle vendite o del fatturato. Utilizza una mappa colorata per rappresentare la densità del fatturato o delle vendite per regione. 
+6: Analisi Temporale e Finalizzazione
+Grafici Lineari / a Barre Temporali (scelta libera): Per analizzare le tendenze nel tempo, crea un grafico lineare o a barre per mostrare l'evoluzione delle vendite o del fatturato nel tempo. Potresti segmentare questo ulteriormente per categoria di prodotto o per regione geografica.
